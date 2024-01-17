@@ -7,13 +7,22 @@ This folder contains instructions and materials to get new users started with De
 Follow the steps below to build an Apache Spark<sup>TM</sup> image with Delta Lake installed, run a container, and follow the quickstart in an interactive notebook or shell with any of the options like Python, PySpark, Scala Spark or even Rust.
 
 1. [Working with Docker](#working-with-docker)
-   1. [Build the image](#build-the-image)
-   2. [Docker Hub](#docker-hub)
-2. [Choose an interface](#choose-an-interface)
+   1. [Shortcut to clone and run out of the gate](#Shortcut to clone and run out of the gate).
+   2. [Build the image](#build-the-image)
+   4. [Docker Hub](#docker-hub)
+3. [Choose an interface](#choose-an-interface)
+
 
 > Note: Python version available in this Docker image is 3.9.2 and is available as `python3`.
 
 ## Working with Docker
+
+### Shortcut to clone and run out of the gate
+
+   ```bash
+   docker build -t delta_quickstart -f Dockerfile_delta_quickstart .
+   ```
+
 
 ### Build the Image
 
